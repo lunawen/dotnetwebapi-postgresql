@@ -1,10 +1,10 @@
 ﻿# Intro
 
-This is a simple project to use along with a dotnet web api deployment tutorial.
-
-https://lunawen.com/devops/20220409-luna-tech-deploy-dotnet-webapi-ubuntu/
+This is a simple project to use along with a dotnet web api with postgresql integration tutorial.
 
 # Commands
+
+For commands related to EF core, please check out the blog.
 
 ## Dev
 
@@ -20,6 +20,12 @@ Please don't use the single file approach, we need the dll to make this work.
 
 ```shell
 dotnet publish --configuration Release -o published
+```
+
+## Create migration script
+
+```shell
+dotnet ef migrations script --output "migration.sql" --idempotent
 ```
 
 ## Run the publish
