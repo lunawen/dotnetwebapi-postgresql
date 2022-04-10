@@ -2,6 +2,8 @@
 
 This is a simple project to use along with a dotnet web api with postgresql integration tutorial.
 
+https://lunawen.com/devops/20220410-luna-tech-add-postgresql-to-dotnetwebapi/
+
 # Commands
 
 For commands related to EF core, please check out the blog.
